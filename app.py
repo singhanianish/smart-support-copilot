@@ -98,6 +98,13 @@ uploaded_file = st.sidebar.file_uploader(
     type=["pdf"]
 )
 
+st.sidebar.markdown("### Supported Query Types")
+st.sidebar.markdown("""
+- Troubleshooting
+- Product Comparison
+- General Knowledge
+""")
+
 
 # -----------------------------
 # PROCESS PDF
